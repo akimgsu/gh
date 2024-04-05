@@ -16,8 +16,10 @@ jobs:
     steps:
       - run: ls -al
       - uses: actions/checkout@v3
-      - run: ls -al
-      - run: cat .github/workflows/blank.yml
+        with:
+          path: my
+      - run: ls -al my
+      - run: cat my/.github/workflows/blank.yml
 
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
