@@ -1,1 +1,2 @@
-# gh
+# GH
+## GH Actions
