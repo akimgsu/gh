@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
+
 # GH
 ## GH Actions
-=======
->>>>>>> 69733a7c2614c770c2986af1e746eb8256c2b595
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
