@@ -2,9 +2,9 @@ name: CI Cache
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "live" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "live" ]
 
 jobs:
   cache:
