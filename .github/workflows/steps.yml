@@ -1,0 +1,15 @@
+name: CI steps
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  foobar:
+    runs-on: ubuntu-latest
+    steps:
+      - id: set-foo
+        run: echo "foo=bar" >> $GITHUB_OUTPUT
+      - run: echo ${{ steps.set-foo.outputs.foo }} 
