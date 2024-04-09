@@ -1,4 +1,4 @@
-name: CI Cache
+name: CI
 
 on:
   push:
