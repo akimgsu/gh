@@ -11,6 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - uses: actions/setup-node@3
+        with:
+          node-version: 8.17.0
       - run: npm ci
       - run: npm test
       - run: npm run build
